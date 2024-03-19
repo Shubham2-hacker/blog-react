@@ -7,6 +7,37 @@
   pointer-events: none;
 }
 
+.navbar {
+  text-align: left;
+}
+
+/* .navbar .active {
+  color: skyblue !important;
+} */
+
+.navbar li{
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar li a:hover {
+  /* text-decoration: none; */
+  color: green;
+}
+
+span {
+  padding: 10px;
+  color: #fff;
+  background-color: #000;
+  font-size: 20px;
+  line-height: 80px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
